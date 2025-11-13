@@ -98,12 +98,14 @@ const Index = () => {
               </div>
             </div>
             <div className="relative animate-fade-in">
-              <div className="bg-muted/50 rounded-2xl shadow-2xl w-full aspect-video flex items-center justify-center">
-                <div className="text-center p-8">
-                  <Icon name="Video" className="text-primary mx-auto mb-4" size={64} />
-                  <p className="text-lg text-muted-foreground font-medium">Место для видео с дрона</p>
-                  <p className="text-sm text-muted-foreground mt-2">Добавьте ссылку на видео для размещения здесь</p>
-                </div>
+              <div className="rounded-2xl shadow-2xl w-full aspect-video overflow-hidden">
+                <iframe
+                  src="https://drive.google.com/file/d/1Ot0w_f9MO-2woxRP4_OhWHM2VhbnN2z6/preview"
+                  width="100%"
+                  height="100%"
+                  allow="autoplay"
+                  className="w-full h-full"
+                ></iframe>
               </div>
               <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-xl shadow-xl">
                 <div className="flex items-center gap-3">
